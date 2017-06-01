@@ -26,7 +26,7 @@ else:
 	people_choice = random.choice(tagged_people)
 	final_string = "Check out " + people_choice + ' for more news'
 
-hashtag_list = ['entrepreneur','bizhour','smallbiz','developer','blockchain','crypto']
+hashtag_list = ['#entrepreneur','#bizhour','#smallbiz','#developer','#blockchain','#crypto']
 
 x = api.request('trends/place',{'id':woeid})
 for item in x:
